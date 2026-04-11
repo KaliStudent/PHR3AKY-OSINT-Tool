@@ -1,5 +1,5 @@
 {
-  "name": "phonetrace9000",
+  "name": "phr3aky-osint-tool",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -12,8 +12,5 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "libphonenumber-js": "^1.11.10"
-  },
-  "engines": {
-    "node": ">=18"
   }
 }
