@@ -1,0 +1,11 @@
+{
+  "name": "phonetrace9000",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "libphonenumber-js": "^1.11.10"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
