@@ -1,0 +1,23 @@
+{
+  "name": "phone-intel-api",
+  "version": "1.0.0",
+  "description": "Phone intelligence API (type, carrier, region, reputation)",
+  "main": "api/lookup.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel dev"
+  },
+  "keywords": [
+    "phone",
+    "lookup",
+    "api",
+    "vercel"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "libphonenumber-js": "^1.11.10"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
