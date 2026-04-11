@@ -49,7 +49,16 @@ export default function Home() {
 
       {result && (
         <div style={styles.resultBox}>
-          <pre>{JSON.stringify(result, null, 2)}</pre>
+          <div style={styles.grid}>
+  <div><strong>Phone:</strong> {result.phone}</div>
+  <div><strong>Carrier:</strong> {result.carrier}</div>
+  <div><strong>Type:</strong> {result.number_type}</div>
+  <div><strong>Status:</strong> {result.valid ? "VALID" : "INVALID"}</div>
+  <div><strong>Risk:</strong> {result.reputation.label}</div>
+  <div><strong>Score:</strong> {result.reputation.score}</div>
+  <div><strong>Country:</strong> {result.region.country}</div>
+  <div><strong>Confidence:</strong> {result.confidence}</div>
+</div>
         </div>
       )}
     </div>
